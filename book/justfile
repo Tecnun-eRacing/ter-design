@@ -1,0 +1,13 @@
+default: serve
+
+init:
+    @if ! command -v mdbook >/dev/null 2>&1; then \
+        echo "mdBook not found. Installing via cargo..."; \
+        cargo install mdbook --locked; \
+    fi
+
+serve: init
+    mdbook serve --open
+
+build: init
+    mdbook build
