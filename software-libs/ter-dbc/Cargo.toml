@@ -1,0 +1,16 @@
+[package]
+name = "ter-dbc"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bitvec = { version = "1.1", default-features = false }
+embassy-time = "0.5"
+embedded-can = "0.4"
+
+[build-dependencies]
+anyhow = "1.0.104"
+dbc-codegen2 = "0.1.9"
+
+[dev-dependencies]
+arbitrary = "1.4.2"

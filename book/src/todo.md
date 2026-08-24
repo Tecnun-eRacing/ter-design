@@ -7,6 +7,7 @@
 - [ ] Documentar cosas a nivel general (Wire harness y esas movidas q terminan siendo utiles, no hace falta explicar cada placa a detalle)
 - [ ] Encontrar un Conformal Coating bueno
 - [ ] ¿Posiblemente migrar esto a la intranet de miguel?, me sigue gustando mas tener asi para tener un control de versiones decente
+- [ ] Ser ESOs
 
 ## ACCU
 
