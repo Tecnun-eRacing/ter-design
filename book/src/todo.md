@@ -21,13 +21,19 @@
   - [ ] Mirar para hacer q todo quede mas clean (si vamos sobrados de tiempo)
 
 ### HV
-- [ ] Fusible
+- [ ] Fusibles
+  - [ ] El gordo
+  - [ ] Los pequeños
+- [ ] Cableado de alta
+  - [ ] El gordo
+  - [ ] Trifasico guapo
 - [ ] AIRs
 - [ ] Parametros y curvas de las celdas para el SOC
 
 ### LV
 - [ ] Diseño del Slave
-  - [ ] Ver si el valor de la R del npn tiene que ser mas pequeña 
+  - [ ] Ver como conectarlo a las busbar y a el accu
+  - [x] Ver si el valor de la R del npn tiene que ser mas pequeña 
   - [ ] Botones temps y volts
   - [ ] Placa de testing de Slave
   - [ ] Slave Testeado
@@ -65,7 +71,7 @@
 
 ### RJs
 - [x] Propuesta de cambiar los RJs
-- [ ] Decidir si cambiarlos o no
+- [x] Decidir si cambiarlos o no
 - [ ] Cambiarlo todas las placas
 - [ ] Spliters nuevos
 
@@ -75,6 +81,10 @@
 ### PEDAL
 - [ ] Pedal de freno con region de regen
 - [ ] Potencialmente que lea presion de ambas lineas de freno pq ahora una la lee la pedal y la otra el EBS
+
+### Refri
+- [ ] Huellas ampli lm321
+- [ ] Revision general pq ya no tiene un xt60
 
 ### Control
 (en realidad esto es un poco sugerencia pq hare el codigo de la ecu y luego ya vere como cuadra esto)
