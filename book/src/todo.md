@@ -2,11 +2,11 @@
 
 ## General
 - [ ] Dibujo general de que cosas hay dnd y que hacen
-- [ ] Lista de la compra inicial y comprarla
-- [ ] Comprobar esta misma lista y añadir lo que falte
+- [x] Lista de la compra inicial y comprarla
+- [x] Comprobar esta misma lista y añadir lo que falte
 - [ ] Documentar cosas a nivel general (Wire harness y esas movidas q terminan siendo utiles, no hace falta explicar cada placa a detalle)
-- [ ] Encontrar un Conformal Coating bueno
-- [ ] ¿Posiblemente migrar esto a la intranet de miguel?, me sigue gustando mas tener asi para tener un control de versiones decente
+- [x] Encontrar un Conformal Coating bueno
+- [x] ¿Posiblemente migrar esto a la intranet de miguel?, me sigue gustando mas tener asi para tener un control de versiones decente
 - [ ] Ser ESOs
 
 ## ACCU
@@ -81,6 +81,7 @@
 ### PEDAL
 - [ ] Pedal de freno con region de regen
 - [ ] Potencialmente que lea presion de ambas lineas de freno pq ahora una la lee la pedal y la otra el EBS
+- [ ] Cambiar amplis de pedal por los tlv9001 sot 23-2 pin compatible (o unos buenos)
 
 ### Refri
 - [ ] Huellas ampli lm321
