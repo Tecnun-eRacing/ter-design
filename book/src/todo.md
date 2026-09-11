@@ -12,7 +12,7 @@
 ## ACCU
 
 ### Cosas estructurales
-- [ ] Diseño en CAD
+- [x] Diseño en CAD
 - [ ] Ver como enfriar
 - [ ] Elegir ubicacion placas
 - [ ] Manufacturar
@@ -32,11 +32,12 @@
 
 ### LV
 - [ ] Diseño del Slave
-  - [ ] Ver como conectarlo a las busbar y a el accu
+  - [x] Ver como conectarlo a las busbar y a el accu
   - [x] Ver si el valor de la R del npn tiene que ser mas pequeña 
-  - [ ] Botones temps y volts
+  - [x] Botones temps y volts
   - [ ] Placa de testing de Slave
   - [ ] Slave Testeado
+  - [ ] Carrier del Slave
 - [ ] AMS
   - [ ] SOC
 - [ ] IMD 300k
@@ -53,6 +54,7 @@
 - [ ] Placa Descarga + TSMP + TSAL RED
 - [ ] Decirle cosas a los inverters (Configurarlo y ver como se le manda torque)
 - [ ] Sensor de corriente del BSPD (Sino en la caja del datalogger si queda mejor ahi)
+  - [ ] Revisar potencialmente pillar uno nuevo con menos deriva termica o que su placa tenga correccion
 
 ### Datalogger
 - [ ] Diseño caja datalogger
@@ -77,6 +79,7 @@
 
 ### EBS
 - [ ] Arreglar el pin de reset
+- [ ] Fusible de RES truco (No le da la corriente ni de cerca)
 
 ### PEDAL
 - [ ] Pedal de freno con region de regen

@@ -4481,7 +4481,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "061afbbb-fd8b-4c78-a5b1-0814453dc515")
-		(property "Reference" "C2"
+		(property "Reference" "C?"
 			(at 19.05 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4563,7 +4563,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "C2")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -4581,7 +4581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0acbbe68-ec96-4791-8322-57ffc504481c")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR?"
 			(at 13.97 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4653,7 +4653,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "#PWR01")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4671,7 +4671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d47ffcf-3bee-49cf-bffe-3eaa0f805a90")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR?"
 			(at 138.43 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -4747,7 +4747,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "#PWR013")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4765,7 +4765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16cede7d-975c-4a10-84fb-78e1e1bbfbc4")
-		(property "Reference" "R5"
+		(property "Reference" "R?"
 			(at 255.27 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4833,7 +4833,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "R5")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -4850,7 +4850,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "246d2abe-6778-4aea-9ec0-77fcf151facb")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR?"
 			(at 26.67 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -4928,7 +4928,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "#PWR06")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4945,7 +4945,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "31f267e4-1b46-46b2-9804-772ade25bffb")
-		(property "Reference" "R2"
+		(property "Reference" "R?"
 			(at 21.59 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5019,7 +5019,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "R2")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -5036,7 +5036,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "355092a7-4676-410c-9dc8-f360ddbd557f")
-		(property "Reference" "C1"
+		(property "Reference" "C?"
 			(at 16.51 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5116,7 +5116,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "C1")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -5133,7 +5133,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59b57bd6-7ad6-4ed9-aa95-15d15ec07af3")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR?"
 			(at 152.4 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -5211,7 +5211,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "#PWR015")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -5228,7 +5228,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "63c43d1a-01d0-4cea-961d-2153397d61f6")
-		(property "Reference" "C8"
+		(property "Reference" "C?"
 			(at 39.37 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5308,7 +5308,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "C8")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -5327,7 +5327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "649d76fb-9d0c-450a-b758-9aace011d80a")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR?"
 			(at 226.06 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -5393,7 +5393,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "#PWR017")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -5410,7 +5410,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69f6e8bf-5b25-4ac2-a5f4-8c923eb9a8a6")
-		(property "Reference" "C3"
+		(property "Reference" "C?"
 			(at 17.78 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5484,7 +5484,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "C3")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -5502,7 +5502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c57cddb-d7f6-472d-a1b5-57edad2e08d9")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR?"
 			(at 226.06 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5568,7 +5568,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "#PWR016")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -5585,7 +5585,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d9ac654-3211-4cd8-86f4-a0bb04a09709")
-		(property "Reference" "U1"
+		(property "Reference" "U?"
 			(at 156.21 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5805,7 +5805,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "U1")
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -5823,7 +5823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7452fc0c-6b56-4f68-ba2a-5043eeba32aa")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR?"
 			(at 44.45 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -5901,7 +5901,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "#PWR010")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -5918,7 +5918,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77042ea6-fd9e-42b7-851c-8a7ce0660e8d")
-		(property "Reference" "C11"
+		(property "Reference" "C?"
 			(at 46.99 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5998,7 +5998,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "C11")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -6016,7 +6016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87742c5e-80ab-46bf-96d7-72cfd6875113")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR?"
 			(at 254 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6083,7 +6083,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "#PWR020")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -6101,7 +6101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91d3cab1-6e04-44a9-8a31-7285ba86eb67")
-		(property "Reference" "Y1"
+		(property "Reference" "Y?"
 			(at 31.75 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6175,7 +6175,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "Y1")
+					(reference "Y?")
 					(unit 1)
 				)
 			)
@@ -6193,7 +6193,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "95cc1807-0618-4cc8-8268-771d644de94b")
-		(property "Reference" "R3"
+		(property "Reference" "R?"
 			(at 40.64 149.098 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6269,7 +6269,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "R3")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -6287,7 +6287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ad229e7-f3c2-4b34-9635-5dd04468ac13")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR?"
 			(at 38.1 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -6359,7 +6359,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "#PWR09")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -6376,7 +6376,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d0e3cd8-c878-4674-8e98-9e74569fd0cb")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR?"
 			(at 44.45 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -6454,7 +6454,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "#PWR011")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -6471,7 +6471,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f9d76da-5682-4140-aa56-c136c730807d")
-		(property "Reference" "C4"
+		(property "Reference" "C?"
 			(at 24.13 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6551,7 +6551,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "C4")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -6569,7 +6569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad99394c-7839-4e14-9ada-0d651aeb8f4c")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR?"
 			(at 46.99 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -6641,7 +6641,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "#PWR012")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -6658,7 +6658,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b4889f20-c052-4c56-af75-c6b6e5701e1d")
-		(property "Reference" "C6"
+		(property "Reference" "C?"
 			(at 31.75 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6738,7 +6738,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "C6")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -6756,7 +6756,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b52797ab-5955-4f54-9bbc-11881ff072eb")
-		(property "Reference" "C7"
+		(property "Reference" "C?"
 			(at 36.83 84.455 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6832,7 +6832,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "C7")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -6850,7 +6850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5739160-0def-4535-a954-01aba25d0e46")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR?"
 			(at 27.94 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6922,7 +6922,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "#PWR07")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -6940,7 +6940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb59037f-5386-402a-ac9a-a93fbdd85c4b")
-		(property "Reference" "SW1"
+		(property "Reference" "SW?"
 			(at 24.13 84.455 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7016,7 +7016,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "SW1")
+					(reference "SW?")
 					(unit 1)
 				)
 			)
@@ -7033,7 +7033,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c06c69fb-0f04-4386-9419-8eb3b129723a")
-		(property "Reference" "R1"
+		(property "Reference" "R?"
 			(at 16.51 116.205 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7109,7 +7109,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "R1")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -7127,7 +7127,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c89fdc7b-1e72-4375-abe0-175faf1aa2a7")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR?"
 			(at 238.76 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -7193,7 +7193,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "#PWR018")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -7211,7 +7211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8df8420-7be9-4ec3-86a9-da4aa103361c")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR?"
 			(at 140.97 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -7287,7 +7287,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "#PWR014")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -7304,7 +7304,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb2f927f-327f-4bf2-97ab-aac738a785fe")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR?"
 			(at 20.32 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -7382,7 +7382,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "#PWR04")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -7400,7 +7400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d09eaa52-b2e9-4378-adec-6628f54d216e")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR?"
 			(at 16.51 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -7472,7 +7472,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "#PWR05")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -7491,7 +7491,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6d80849-db1d-450a-954f-f65d1992772c")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR?"
 			(at 264.16 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -7558,7 +7558,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "#PWR019")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -7575,7 +7575,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc503a57-7008-4969-beaa-91ab4ccfad55")
-		(property "Reference" "R4"
+		(property "Reference" "R?"
 			(at 243.84 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7643,7 +7643,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "R4")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -7661,7 +7661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc8c85a1-5754-49b2-abd7-283c197cb53a")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR?"
 			(at 15.24 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -7737,7 +7737,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "#PWR03")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -7755,7 +7755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e012452e-e8d2-4ec3-beed-720a8a260d86")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR?"
 			(at 15.24 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -7831,7 +7831,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "#PWR02")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -7848,7 +7848,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4f6e731-d2cb-400b-90f6-acb8116df8d3")
-		(property "Reference" "C5"
+		(property "Reference" "C?"
 			(at 29.21 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7930,7 +7930,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "C5")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -7947,7 +7947,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e5c46254-3f61-431c-bfea-71a6e9440096")
-		(property "Reference" "FB1"
+		(property "Reference" "FB?"
 			(at 35.56 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8027,7 +8027,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "FB1")
+					(reference "FB?")
 					(unit 1)
 				)
 			)
@@ -8044,7 +8044,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee331caf-756e-4ed6-8653-cdd456cbf8b2")
-		(property "Reference" "C10"
+		(property "Reference" "C?"
 			(at 46.99 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8126,7 +8126,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "C10")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -8143,7 +8143,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f06b08b3-31a0-4ab8-904c-bb37f491402c")
-		(property "Reference" "R6"
+		(property "Reference" "R?"
 			(at 255.27 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8211,7 +8211,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "R6")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -8228,7 +8228,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f26781b6-30ab-4282-8705-6b777706be13")
-		(property "Reference" "C9"
+		(property "Reference" "C?"
 			(at 45.72 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8302,7 +8302,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "C9")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -8320,7 +8320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f62cf0da-db1b-46ba-8fca-6be25271d2e0")
-		(property "Reference" "J1"
+		(property "Reference" "J?"
 			(at 214.63 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8414,7 +8414,7 @@
 			)
 			(project "stm32f1_core"
 				(path "/a29f38ea-5ab1-4539-aa28-de1419b38643"
-					(reference "J1")
+					(reference "J?")
 					(unit 1)
 				)
 			)
