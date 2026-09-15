@@ -25,17 +25,17 @@
   - [ ] El gordo
   - [ ] Los pequeños
 - [ ] Cableado de alta
-  - [ ] El gordo
-  - [ ] Trifasico guapo
+  - [x] El gordo
+  - [x] Trifasico guapo
 - [ ] AIRs
 - [ ] Parametros y curvas de las celdas para el SOC
 
 ### LV
-- [ ] Diseño del Slave
+- [x] Diseño del Slave
   - [x] Ver como conectarlo a las busbar y a el accu
   - [x] Ver si el valor de la R del npn tiene que ser mas pequeña 
   - [x] Botones temps y volts
-  - [ ] Placa de testing de Slave
+  - [x] Placa de testing de Slave
   - [ ] Slave Testeado
   - [ ] Carrier del Slave
 - [ ] AMS
@@ -78,17 +78,19 @@
 - [ ] Spliters nuevos
 
 ### EBS
-- [ ] Arreglar el pin de reset
-- [ ] Fusible de RES truco (No le da la corriente ni de cerca)
+- [x] Arreglar el pin de reset
+- [x] Fusible de RES truco (No le da la corriente ni de cerca)
+- [ ] Revisar que las presiones de aire son a 24v y igual hay q cambiar el valor del divisor resistivo y impedancias de entrada de lecturas de sensores en general
 
 ### PEDAL
-- [ ] Pedal de freno con region de regen
-- [ ] Potencialmente que lea presion de ambas lineas de freno pq ahora una la lee la pedal y la otra el EBS
+- [x] Pedal de freno con region de regen
+- [x] Potencialmente que lea presion de ambas lineas de freno pq ahora una la lee la pedal y la otra el EBS
 - [ ] Cambiar amplis de pedal por los tlv9001 sot 23-2 pin compatible (o unos buenos)
 
 ### Refri
 - [ ] Huellas ampli lm321
 - [ ] Revision general pq ya no tiene un xt60
+- [ ] Revisar q los transistrores de potencia aguanten (no chance)
 
 ### Control
 (en realidad esto es un poco sugerencia pq hare el codigo de la ecu y luego ya vere como cuadra esto)
