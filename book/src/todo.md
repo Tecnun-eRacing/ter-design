@@ -1,7 +1,7 @@
 # Todo
 
 ## General
-- [ ] Dibujo general de que cosas hay dnd y que hacen
+- [x] Dibujo general de que cosas hay dnd y que hacen
 - [x] Lista de la compra inicial y comprarla
 - [x] Comprobar esta misma lista y añadir lo que falte
 - [ ] Documentar cosas a nivel general (Wire harness y esas movidas q terminan siendo utiles, no hace falta explicar cada placa a detalle)
@@ -38,11 +38,13 @@
   - [x] Placa de testing de Slave
   - [ ] Slave Testeado
   - [ ] Carrier del Slave
-- [ ] AMS
+- [x] AMS
+  - [ ] AMS Testeado
   - [ ] SOC
 - [ ] IMD 300k
-- [ ] Voltage Indicator
-- [ ] Precarga
+- [x] Voltage Indicator
+  - [ ] Testeado
+- [x] Precarga
 - [ ] Sensor de corriente
 - [ ] DCDC
 
@@ -51,7 +53,9 @@
 ### Inverters + PDB + Discharge + TSMP + TSAL RED
 - [ ] Diseño (Que todo encaje)
 - [ ] PDB
-- [ ] Placa Descarga + TSMP + TSAL RED
+- [x] Placa Descarga + TSMP + TSAL RED
+  - [ ] Testeado
+  - [ ] Descarga con busbar incluida
 - [ ] Decirle cosas a los inverters (Configurarlo y ver como se le manda torque)
 - [ ] Sensor de corriente del BSPD (Sino en la caja del datalogger si queda mejor ahi)
   - [ ] Revisar potencialmente pillar uno nuevo con menos deriva termica o que su placa tenga correccion
@@ -63,7 +67,7 @@
 - [ ] Ver dnd ponerlo y ponerlo
 
 ### Cableado
-- [ ] Ver como llevar a los motores de alante, firewall y toda la movida
+- [x] Ver como llevar a los motores de alante, firewall y toda la movida
 
 ## LV
 
@@ -80,7 +84,8 @@
 ### EBS
 - [x] Arreglar el pin de reset
 - [x] Fusible de RES truco (No le da la corriente ni de cerca)
-- [ ] Revisar que las presiones de aire son a 24v y igual hay q cambiar el valor del divisor resistivo y impedancias de entrada de lecturas de sensores en general
+- [x] Revisar que las presiones de aire son a 24v y igual hay q cambiar el valor del divisor resistivo y impedancias de entrada de lecturas de sensores en general
+- [ ] Testear
 
 ### PEDAL
 - [x] Pedal de freno con region de regen
