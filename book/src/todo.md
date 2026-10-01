@@ -17,6 +17,9 @@
 - [ ] Elegir ubicacion placas
 - [ ] Manufacturar
 - [ ] Revision Carrito
+  - [ ] Placa charger
+    - [ ] cambiarle el esquematico del can, por el de ter design
+    - [ ] cambiar el conector por el de ter design
   - [ ] Cambiar ruedas/frenos
   - [ ] Mirar para hacer q todo quede mas clean (si vamos sobrados de tiempo)
 
