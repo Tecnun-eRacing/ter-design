@@ -18,8 +18,8 @@
 - [ ] Manufacturar
 - [ ] Revision Carrito
   - [ ] Placa charger
-    - [ ] cambiarle el esquematico del can, por el de ter design
-    - [ ] cambiar el conector por el de ter design
+    - [X] cambiarle el esquematico del can, por el de ter design
+    - [X] cambiar el conector por el de ter design
   - [ ] Cambiar ruedas/frenos
   - [ ] Mirar para hacer q todo quede mas clean (si vamos sobrados de tiempo)
 
@@ -82,7 +82,7 @@
 - [x] Propuesta de cambiar los RJs
 - [x] Decidir si cambiarlos o no
 - [ ] Cambiarlo todas las placas
-- [ ] Spliters nuevos
+- [X] Spliters nuevos
 
 ### EBS
 - [x] Arreglar el pin de reset
