@@ -34,9 +34,57 @@ NS_ :
 
 BS_:
 
-BU_: ECU COMMANDS
+BU_: Asb Bootloader Ecu Ams
 
-BO_ 256 COMMAND: 1 COMMANDS
- SG_ CMD M : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+BO_ 1 Command: 1 Vector__XXX
+ SG_ cmd M : 0|8@1+ (1,0) [0|0] "" Vector__XXX
 
-VAL_ 256 CMD 0 "Beep" ;
+BO_ 0 NmtNodeControl: 2 Vector__XXX
+ SG_ command_specifier : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ id : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2 Ack: 1 Vector__XXX
+ SG_ cmd : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 256 AsbStatus: 1 Asb
+ SG_ status_brake_1 : 0|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ status_brake_2 : 2|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ brake_1_air : 4|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ brake_1_oil : 5|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ brake_2_air : 6|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ brake_2_oil : 7|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 3 Faults: 8 Ecu
+
+BO_ 4 SetFault: 1 Vector__XXX
+ SG_ fault : 0|6@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Signal_2 : 6|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 771 bootloader_reserved_1: 8 Bootloader
+
+BO_ 772 bootloader_reserved_2: 8 Bootloader
+
+BO_ 773 bootloader_reserved_3: 8 Bootloader
+
+BO_ 774 bootloader_reserved_4: 8 Bootloader
+
+BO_ 775 bootloader_reserved_5: 8 Bootloader
+
+BO_ 776 bootloader_reserved_6: 8 Bootloader
+
+BO_ 16 TerStatus: 8 Ecu
+
+BO_ 512 AmsStatus: 8 Ams
+ SG_ ams : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ imd : 1|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ state : 2|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ contactor_pos : 4|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ contactor_pos_fb : 5|1@1+ (1,0) [0|0] "" Vector__XXX
+
+VAL_ 1 cmd 0 "Beep" 1 "Precharge" 2 "Drive" 3 "EbsBrake" 4 "AmsActivate" 5 "AmsCharge" ;
+VAL_ 0 command_specifier 1 "StartNode" ;
+VAL_ 0 id 0 "All" ;
+VAL_ 256 status_brake_1 0 "Off" 1 "Ready" 2 "Activated" ;
+VAL_ 256 status_brake_2 0 "Off" 1 "Ready" 2 "Activated" ;
+VAL_ 4 Signal_2 0 "Reset" 1 "Set" ;
+VAL_ 512 state 0 "Off" 1 "Prech" 2 "Charging" 3 "Active" ;

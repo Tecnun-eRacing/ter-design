@@ -18,8 +18,8 @@
 - [ ] Manufacturar
 - [ ] Revision Carrito
   - [ ] Placa charger
-    - [X] cambiarle el esquematico del can, por el de ter design
-    - [X] cambiar el conector por el de ter design
+    - [x] cambiarle el esquematico del can, por el de ter design
+    - [x] cambiar el conector por el de ter design
   - [ ] Cambiar ruedas/frenos
   - [ ] Mirar para hacer q todo quede mas clean (si vamos sobrados de tiempo)
 
@@ -61,7 +61,7 @@
   - [ ] Descarga con busbar incluida
 - [ ] Decirle cosas a los inverters (Configurarlo y ver como se le manda torque)
 - [ ] Sensor de corriente del BSPD (Sino en la caja del datalogger si queda mejor ahi)
-  - [ ] Revisar potencialmente pillar uno nuevo con menos deriva termica o que su placa tenga correccion
+  - [x] Revisar potencialmente pillar uno nuevo con menos deriva termica o que su placa tenga correccion
 
 ### Datalogger
 - [ ] Diseño caja datalogger
@@ -82,7 +82,7 @@
 - [x] Propuesta de cambiar los RJs
 - [x] Decidir si cambiarlos o no
 - [ ] Cambiarlo todas las placas
-- [X] Spliters nuevos
+- [x] Spliters nuevos
 
 ### EBS
 - [x] Arreglar el pin de reset
