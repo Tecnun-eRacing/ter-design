@@ -8,6 +8,7 @@
 - [x] Encontrar un Conformal Coating bueno
 - [x] ¿Posiblemente migrar esto a la intranet de miguel?, me sigue gustando mas tener asi para tener un control de versiones decente
 - [ ] Ser ESOs
+- [ ] Comprar mantas accu
 
 ## ACCU
 
