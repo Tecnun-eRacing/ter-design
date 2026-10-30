@@ -1,0 +1,72 @@
+VERSION ""
+
+NS_ :
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: charger Vector__XXX
+
+BO_ 2183151616 ConfigureCharger: 8 Vector__XXX
+ SG_ group : 7|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ message_type : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ command M : 15|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ dummy_m0 m0 : 39|32@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ dummy_m1 m1 : 39|32@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ dummy_m8 m8 : 39|32@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ voltage m2 : 39|32@0+ (1,0) [0|0] "mV" Vector__XXX
+ SG_ current m3 : 39|32@0+ (1,0) [0|0] "mA" Vector__XXX
+ SG_ power m4 : 39|32@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2183151617 ChargerReply: 8 charger
+ SG_ group : 7|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ message_type : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ command M : 15|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ voltage_out m0 : 39|32@0+ (1,0) [0|0] "mV" Vector__XXX
+ SG_ current_out m1 : 39|32@0+ (1,0) [0|0] "mA" Vector__XXX
+ SG_ voltage_target m2 : 39|32@0+ (1,0) [0|0] "mV" Vector__XXX
+ SG_ current_target m3 : 39|32@0+ (1,0) [0|0] "mA" Vector__XXX
+ SG_ power_echo m4 : 39|32@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ st_dcdc_off m8 : 33|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ st_loop m8 : 35|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ st_ac_ov m8 : 56|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ st_ac_uv m8 : 57|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ st_dc_ov m8 : 62|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ st_dc_uv m8 : 48|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ st_fan_fail m8 : 49|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ st_same_sn m8 : 37|1@0+ (1,0) [0|1] "" Vector__XXX
+
+VAL_ 2183151616 message_type 0 "Set" 2 "Read" ;
+VAL_ 2183151616 command 0 "CurrentVoltage" 1 "CurrentCurrent" 2 "TargetVoltage" 3 "TargetCurrent" 4 "Power" 8 "Status" ;
+VAL_ 2183151616 power 0 "On" 1 "Off" ;
+VAL_ 2183151617 message_type 1 "SetResponse" 3 "ReadResponse" ;
+VAL_ 2183151617 command 0 "CurrentVoltage" 1 "CurrentCurrent" 2 "TargetVoltage" 3 "TargetCurrent" 4 "Power" 8 "Status" ;
+VAL_ 2183151617 power_echo 0 "On" 1 "Off" ;
+VAL_ 2183151617 st_loop 0 "VoltageLoop_CV" 2 "CurrentLoop_CC" ;
