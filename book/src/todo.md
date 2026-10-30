@@ -45,12 +45,14 @@
 - [x] AMS
   - [ ] AMS Testeado
   - [ ] SOC
-- [ ] IMD 300k
+- [x] IMD 300k
 - [x] Voltage Indicator
   - [ ] Testeado
 - [x] Precarga
 - [ ] Sensor de corriente
 - [ ] DCDC
+  - [x] Primera etapa
+  - [ ] Segunda etapa
 
 ## TS Enclosures
 
@@ -61,6 +63,9 @@
   - [ ] Testeado
   - [ ] Descarga con busbar incluida
 - [ ] Decirle cosas a los inverters (Configurarlo y ver como se le manda torque)
+  - [x] Hablar cosas basicas
+  - [ ] Poner cableado
+  - [ ] Mover un motor
 - [ ] Sensor de corriente del BSPD (Sino en la caja del datalogger si queda mejor ahi)
   - [x] Revisar potencialmente pillar uno nuevo con menos deriva termica o que su placa tenga correccion
 
@@ -89,7 +94,7 @@
 - [x] Arreglar el pin de reset
 - [x] Fusible de RES truco (No le da la corriente ni de cerca)
 - [x] Revisar que las presiones de aire son a 24v y igual hay q cambiar el valor del divisor resistivo y impedancias de entrada de lecturas de sensores en general
-- [ ] Testear
+- [x] Testear
 
 ### PEDAL
 - [x] Pedal de freno con region de regen
