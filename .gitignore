@@ -2,3 +2,5 @@ book/**/book
 
 **/target
 **/*.lock
+
+**/venv
