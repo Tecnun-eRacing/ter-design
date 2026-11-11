@@ -41,8 +41,8 @@ BO_ 2183151616 ConfigureCharger: 8 Vector__XXX
  SG_ dummy_m0 m0 : 39|32@0+ (1,0) [0|0] "" Vector__XXX
  SG_ dummy_m1 m1 : 39|32@0+ (1,0) [0|0] "" Vector__XXX
  SG_ dummy_m8 m8 : 39|32@0+ (1,0) [0|0] "" Vector__XXX
- SG_ voltage m2 : 39|32@0+ (1,0) [0|0] "mV" Vector__XXX
- SG_ current m3 : 39|32@0+ (1,0) [0|0] "mA" Vector__XXX
+ SG_ voltage m2 : 39|32@0+ (1,0) [0|1000000] "mV" Vector__XXX
+ SG_ current m3 : 39|32@0+ (1,0) [0|50000] "mA" Vector__XXX
  SG_ power m4 : 39|32@0+ (1,0) [0|0] "" Vector__XXX
 
 BO_ 2183155764 ChargerReply: 8 charger
