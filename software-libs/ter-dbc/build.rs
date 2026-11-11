@@ -22,6 +22,21 @@ fn main() -> anyhow::Result<()> {
     CodegenPipeline::run(config)?;
 
     let config = CodegenConfig {
+        inputs: vec!["charger.dbc".to_string()],
+        output: format!("{}/generated_charger", std::env::var("OUT_DIR")?),
+        lang: Language::Rust,
+        no_enum_other: true, // Maybe we want this set to false?
+        no_enum_dedup: false,
+        zero_zero_range_allows_all: false,
+        rust_code_injections: HashMap::new(),
+        cpp_code_injections: HashMap::new(),
+        generate_tests: true,
+        separate: false,
+    };
+
+    CodegenPipeline::run(config)?;
+
+    let config = CodegenConfig {
         inputs: vec!["legacy_ter.dbc".to_string()],
         output: format!("{}/legacy_generated", std::env::var("OUT_DIR")?),
         lang: Language::Rust,
