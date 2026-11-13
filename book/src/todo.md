@@ -14,11 +14,11 @@
 
 ### Cosas estructurales
 - [x] Diseño en CAD
-- [ ] Ver como enfriar
+- [x] Ver como enfriar
 - [ ] Elegir ubicacion placas
 - [ ] Manufacturar
 - [ ] Revision Carrito
-  - [ ] Placa charger
+  - [x] Placa charger
     - [x] cambiarle el esquematico del can, por el de ter design
     - [x] cambiar el conector por el de ter design
   - [ ] Cambiar ruedas/frenos
@@ -26,7 +26,7 @@
 
 ### HV
 - [ ] Fusibles
-  - [ ] El gordo
+  - [x] El gordo
   - [ ] Los pequeños
 - [ ] Cableado de alta
   - [x] El gordo
@@ -40,19 +40,19 @@
   - [x] Ver si el valor de la R del npn tiene que ser mas pequeña 
   - [x] Botones temps y volts
   - [x] Placa de testing de Slave
-  - [ ] Slave Testeado
+  - [x] Slave Testeado
   - [ ] Carrier del Slave
 - [x] AMS
-  - [ ] AMS Testeado
+  - [x] AMS Testeado
   - [ ] SOC
 - [x] IMD 300k
 - [x] Voltage Indicator
-  - [ ] Testeado
+  - [x] Testeado
 - [x] Precarga
-- [ ] Sensor de corriente
+- [x] Sensor de corriente
 - [ ] DCDC
   - [x] Primera etapa
-  - [ ] Segunda etapa
+  - [x] Segunda etapa
 
 ## TS Enclosures
 
@@ -60,13 +60,13 @@
 - [ ] Diseño (Que todo encaje)
 - [ ] PDB
 - [x] Placa Descarga + TSMP + TSAL RED
-  - [ ] Testeado
+  - [x] Testeado
   - [ ] Descarga con busbar incluida
 - [ ] Decirle cosas a los inverters (Configurarlo y ver como se le manda torque)
   - [x] Hablar cosas basicas
   - [ ] Poner cableado
   - [ ] Mover un motor
-- [ ] Sensor de corriente del BSPD (Sino en la caja del datalogger si queda mejor ahi)
+- [x] Sensor de corriente del BSPD (Sino en la caja del datalogger si queda mejor ahi)
   - [x] Revisar potencialmente pillar uno nuevo con menos deriva termica o que su placa tenga correccion
 
 ### Datalogger
@@ -87,7 +87,7 @@
 ### RJs
 - [x] Propuesta de cambiar los RJs
 - [x] Decidir si cambiarlos o no
-- [ ] Cambiarlo todas las placas
+- [x] Cambiarlo todas las placas
 - [x] Spliters nuevos
 
 ### EBS
@@ -120,6 +120,7 @@
   - [ ] ¿Motores externos?
 
 ### Sensores random
-- [ ] Pedir que sensores random quiere la gente
+- [x] Pedir que sensores random quiere la gente
+- [ ] Hacer la placa esta
 
 [LEER ZONA DE ORGANIZACION DE AQUI](./ideas.md)
