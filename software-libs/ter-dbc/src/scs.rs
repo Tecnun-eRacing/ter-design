@@ -1,4 +1,7 @@
+#[cfg(feature = "embassy-time")]
 use embassy_time::{Duration, Instant};
+#[cfg(feature = "git")]
+use embassy_time_git::{Duration, Instant};
 
 pub const DEFAULT_SCS_TIMEOUT: Duration = Duration::from_millis(500);
 
